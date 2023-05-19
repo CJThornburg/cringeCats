@@ -1,0 +1,153 @@
+body {
+    background-image: url("https://static01.nyt.com/images/2010/06/14/business/sub-jp-burger-2/sub-jp-burger-2-popup.jpg?quality=75&auto=webp&disable=upscale");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* row-gap: 35px; */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FCB54D;
+    padding: 30px 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-bottom: 0;
+    /* color: #E5D393; */
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    /* row-gap: 15px; */
+    /* height: 800px; */
+}
+
+.imgB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B4E2F;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+.new {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+
+
+}
+
+
+img {
+
+    max-width: 300px;
+    max-height: 400px;
+    /* margin-bottom: 15px; */
+    background-color: #8B4E2F;
+    padding: 20px 50px;
+    border-top: 8px solid #ffe866;
+}
+
+.vote-div {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    column-gap: 30px;
+    padding: 20px 10px;
+    background-color: #FCB54D;
+    border-radius: 10px;
+
+}
+
+button {
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.comment-div {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+.comments-div {
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100%;
+    max-height: 350px;
+
+    overflow-y: scroll;
+    margin-top: 15px;
+    align-items: flex-start;
+    flex-wrap: none;
+    /* overflow-x: scroll; */
+    /* overflow-x: ; */
+    /* overflow-wrap: break-word; */
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/px1366710-image-kwvxxeqp.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5f8b0a70b355f4a959d57bca5a9b0dd1 ")
+}
+
+ul {
+    list-style-type: none;
+    /* overflow-wrap: break-word; */
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    /* display: inline; */
+    /* border-top: 1px solid gray; */
+    border: 1px solid gray;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    width: fit-content;
+    background-color: beige;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+a {
+    font-size: 2rem;
+    color: white;
+}
+
+.mySpace {
+
+    margin-top: 0;
+    /* text-align: center; */
+    width: 100%;
+    align-self: flex-end;
+    /* background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/px1366710-image-kwvxxeqp.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5f8b0a70b355f4a959d57bca5a9b0dd1 "); */
+
+}
